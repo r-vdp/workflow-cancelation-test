@@ -8,4 +8,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: run script
+        if: always()
         run: bash ./test-signals.sh
