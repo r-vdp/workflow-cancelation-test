@@ -8,4 +8,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: run script
-        run: ./test-signals.sh
+        run: exec ./test-signals.sh
